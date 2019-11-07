@@ -1,11 +1,8 @@
 server:
   port: 8001
-
 spring:
   application:
     name: userprovider
-  ProviderVersion:
-    7.7.7.v
   datasource:
     url: jdbc:mysql://localhost:3306/jpa001?serverTimezone=GMT%2B8
     username: root
@@ -19,4 +16,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:10086/eureka/,http://localhost:10087/eureka/
+  ProviderVersion: UserProvider001:7.7.7V
 
